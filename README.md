@@ -2,11 +2,11 @@
 
 ## Retrieval Augmented Generation (RAG) with Vector Databases and Multiple Embedding Models
 
-This repository contains a Google Colab notebook demonstrating the core concepts and application of **Retrieval Augmented Generation (RAG)**. RAG is a powerful technique that combines information retrieval with Large Language Models (LLMs) to enhance their responses with up-to-date and factual external knowledge.
+RAG is a powerful technique that combines information retrieval with Large Language Models (LLMs) to enhance their responses with up-to-date and factual external knowledge.
 
 ## Overview
 
-In this notebook, we explore:
+In this repo, we explore:
 
 1.  **Text Embeddings**: The fundamental concept of converting text into numerical vectors that capture semantic meaning. We demonstrate this using:
     *   **OpenAI's `text-embedding-ada-002`**
@@ -18,7 +18,7 @@ In this notebook, we explore:
     *   This query embedding is used to retrieve semantically similar documents from a FAISS index.
     *   The retrieved documents (their original text content) are then provided as context to an LLM (e.g., OpenAI's `gpt-4o-mini`) to generate a more accurate, grounded, and informed response, mitigating issues like hallucination.
 
-This notebook is ideal for aspiring AI/ML Engineers looking to build a solid foundation in modern NLP and Generative AI applications.
+This code is ideal for aspiring AI/ML Engineers looking to build a solid foundation in modern NLP and Generative AI applications.
 
 ## Setup and Installation
 
